@@ -1,55 +1,182 @@
-<!-- Colors.stories.mdx -->
-
 import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
 
 <Meta title="Style Guide/Colors" />
 
+## Brand Colors
+
 <ColorPalette>
   <ColorItem
-    title="theme.color.brand"
-    subtitle="Brand Colors"
+    title="theme.colors.primary.dark"
+    subtitle="Primary Dark"
+    colors={{ '': '#24304B' }}
+  />
+  <ColorItem
+    title="theme.colors.primary.pure"
+    subtitle="Primary Pure"
     colors={{
-      PrimaryDark: '#24304B',
-      PrimaryPure: '#08AAF2',
-      PrimaryMedium: '#88CDFB',
-      SecundaryDark: '#FF9901',
-      SecundaryMedium: '#FED768',
+      '': '#08AAF2',
     }}
   />
   <ColorItem
-    title="theme.color.neutral"
-    subtitle="Neutral Colors"
+    title="theme.colors.primary.medium"
+    subtitle="Primary Medium"
     colors={{
-      White: '#FFFFFF',
-      Gray10: '#F8F9FA',
-      Gray20: '#E1E8F5',
-      Gray30: '#D7DFEF',
-      Gray40: '#B6C0D6',
-      Gray50: '#ADB7CC',
-      Gray60: '#A3ACBF',
-      Gray70: '#868E9E',
-      Gray80: '#575C66',
-      Gray90: '#41454D',
-      Gray100: '#232529',
-      Black: '#000000',
+      '': '#88CDFB',
     }}
   />
   <ColorItem
-    title="theme.color.semantic"
-    subtitle="Semantic Colors"
+    title="theme.colors.secondary.dark"
+    subtitle="Secondary Dark"
     colors={{
-      Success: '#15D095',
-      Information: '#266AFF',
-      Warning: '#FFAE0D',
-      Error: '#FF0D21',
+      '': '#FF9901',
     }}
   />
   <ColorItem
-    title="theme.color.system"
-    subtitle="System Colors"
+    title="theme.colors.secondary.medium"
+    subtitle="Secondary Medium"
     colors={{
-      SecondaryButton: '#C5EA52',
-      Icons: '#971BF3',
+      '': '#FED768',
+    }}
+  />
+</ColorPalette>
+
+## Neutral Colors
+
+<ColorPalette>
+  <ColorItem
+    title="theme.colors.white"
+    subtitle="White"
+    colors={{
+      '': '#FFFFFF',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.10"
+    subtitle="Gray 10"
+    colors={{
+      '': '#F8F9FA',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.20"
+    subtitle="Gray 20"
+    colors={{
+      '': '#E1E8F5',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.30"
+    subtitle="Gray 30"
+    colors={{
+      '': '#D7DFEF',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.40"
+    subtitle="Gray 40"
+    colors={{
+      '': '#B6C0D6',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.50"
+    subtitle="Gray 50"
+    colors={{
+      '': '#ADB7CC',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.60"
+    subtitle="Gray 60"
+    colors={{
+      '': '#A3ACBF',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.70"
+    subtitle="Gray 70"
+    colors={{
+      '': '#868E9E',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.80"
+    subtitle="Gray 80"
+    colors={{
+      '': '#575C66',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.90"
+    subtitle="Gray 90"
+    colors={{
+      '': '#41454D',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.gray.100"
+    subtitle="Gray 100"
+    colors={{
+      '': '#232529',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.black"
+    subtitle="Black"
+    colors={{
+      '': '#000000',
+    }}
+  />
+</ColorPalette>
+
+## Semantic Colors
+
+<ColorPalette>
+  <ColorItem
+    title="theme.colors.success"
+    subtitle="Success"
+    colors={{
+      '': '#15D095',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.info"
+    subtitle="Information"
+    colors={{
+      '': '#266AFF',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.warning"
+    subtitle="Warning"
+    colors={{
+      '': '#FFAE0D',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.error"
+    subtitle="Error"
+    colors={{
+      '': '#FF0D21',
+    }}
+  />
+</ColorPalette>
+
+## System Colors
+
+<ColorPalette>
+  <ColorItem
+    title="theme.colors.secondary.btn"
+    subtitle="Secondary Button"
+    colors={{
+      '': '#C5EA52',
+    }}
+  />
+  <ColorItem
+    title="theme.colors.icons"
+    subtitle="Icons"
+    colors={{
+      '': '#971BF3',
     }}
   />
 </ColorPalette>
